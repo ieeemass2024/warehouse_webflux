@@ -1,4 +1,4 @@
-![image](https://github.com/ieeemass2024/warehouse_webflux/assets/108800596/3faa28ad-dec5-4449-99d0-3db72d0c0858)# Assignment 2
+# Assignment 2
 ## Restful API development with Spring Webflux
 
 ### 目录
