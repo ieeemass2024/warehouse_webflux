@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.warehouse.mapper.ItemMapper">
+    <!-- 查询所有商品 -->
+    <select id="findAllItems" resultType="com.example.warehouse.bean.Item">
+        SELECT * FROM Items
+    </select>
+
+    <!-- 添加商品 -->
+    <insert id="addItem" parameterType="com.example.warehouse.bean.Item">
+        INSERT INTO Items (name, category, description, stock, price, create_time, update_time) 
+        VALUES (#{name}, #{category}, #{description}, #{stock}, #{price}, #{create_time}, #{update_time})
+    </insert>
+
+    <!-- 根据id删除商品 -->
+    <delete id="deleteItemById" parameterType="int">
+        DELETE FROM Items WHERE id = #{id}
+    </delete>
+
+    <!-- 根据id查询商品 -->
+    <select id="findItemById" resultType="com.example.warehouse.bean.Item">
+        SELECT * FROM Items WHERE id = #{id}
+    </select>
+
+    <!-- 更新商品信息 -->
+    <update id="updateItem" parameterType="com.example.warehouse.bean.Item">
+        UPDATE Items SET name=#{name}, category=#{category}, description=#{description}, 
+        stock=#{stock}, price=#{price}, update_time=#{update_time} WHERE id=#{id}
+    </update>
+</mapper>

@@ -1,0 +1,301 @@
+2024-05-25 15:59:07 [main] INFO  c.e.warehouse.WarehouseApplication - Starting WarehouseApplication using Java 17 with PID 16232 (D:\warehouse_management\warehouse\target\classes started by Lenovo in D:\warehouse_management)
+2024-05-25 15:59:07 [main] INFO  c.e.warehouse.WarehouseApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-25 15:59:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-25 15:59:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-05-25 15:59:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148 ms. Found 2 R2DBC repository interfaces.
+2024-05-25 15:59:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-25 15:59:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-25 15:59:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.warehouse.mapper.ItemRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-05-25 15:59:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.warehouse.mapper.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-05-25 15:59:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-05-25 15:59:12 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2024-05-25 15:59:12 [main] INFO  c.e.warehouse.WarehouseApplication - Started WarehouseApplication in 5.432 seconds (process running for 5.892)
+2024-05-25 15:59:55 [reactor-tcp-nio-2] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [reactor-tcp-nio-3] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [reactor-tcp-nio-4] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [reactor-tcp-nio-5] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [reactor-tcp-nio-6] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [reactor-tcp-nio-7] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [reactor-tcp-nio-8] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [reactor-tcp-nio-9] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [reactor-tcp-nio-10] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [reactor-tcp-nio-11] WARN  d.miku.r2dbc.mysql.MySqlConnection - The server timezone is <?§Û??????> that's unknown, trying to use system default timezone
+2024-05-25 15:59:55 [lettuce-nioEventLoop-7-1] INFO  com.example.warehouse.util.JwtUtils - JWT key: averyverylongkey
+2024-05-25 15:59:55 [lettuce-nioEventLoop-7-1] INFO  com.example.warehouse.util.JwtUtils - JWT expire: 10
+2024-05-25 15:59:55 [lettuce-nioEventLoop-7-1] INFO  com.example.warehouse.util.JwtUtils - Created JWT: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyNSIsImlkIjoiNSIsImV4cCI6MTcxNjYyNDU5NSwiaWF0IjoxNzE2NjIzOTk1LCJqdGkiOiJiYmU0MzBlMi00MGY2LTQ3YzctODdiOC04ZmIzNmE5OTg4N2YiLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl19.gtNFrHH8jffCU_e6p-_tt73QrM6S3dpkPDNfTXeBW6g
+2024-05-25 15:59:55 [reactor-http-nio-3] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@4833e6b8
+2024-05-25 15:59:55 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 15:59:55 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 15:59:55 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 15:59:55 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 15:59:55 [parallel-3] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@48f09da5
+2024-05-25 15:59:55 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 15:59:55 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 15:59:55 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 15:59:55 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 15:59:55 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing getAllItems operation
+2024-05-25 15:59:55 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed getAllItems with result: SUCCESS
+2024-05-25 15:59:55 [reactor-http-nio-3] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 15:59:55 [reactor-http-nio-3] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 15:59:55 [reactor-http-nio-3] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 15:59:55 [reactor-http-nio-3] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:07 [reactor-http-nio-4] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@330fbd24
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:07 [parallel-4] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@30f37a4d
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing createItem operation
+2024-05-25 16:00:07 [reactor-http-nio-4] INFO  c.e.warehouse.handler.ItemHandler - Received item data: com.example.warehouse.bean.Item@59772065
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed createItem with result: SUCCESS
+2024-05-25 16:00:07 [reactor-http-nio-4] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:07 [reactor-http-nio-4] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:07 [reactor-http-nio-4] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:07 [reactor-http-nio-4] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:07 [reactor-http-nio-5] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@61b9ce76
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:07 [parallel-5] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@38214034
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:07 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing getAllItems operation
+2024-05-25 16:00:07 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed getAllItems with result: SUCCESS
+2024-05-25 16:00:07 [reactor-http-nio-5] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:07 [reactor-http-nio-5] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:07 [reactor-http-nio-5] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:07 [reactor-http-nio-5] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:11 [reactor-http-nio-6] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@7029c63f
+2024-05-25 16:00:11 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:11 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:11 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:11 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:11 [parallel-6] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@5e164b24
+2024-05-25 16:00:11 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:11 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:11 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:11 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:11 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing getItemById operation for item ID 18
+2024-05-25 16:00:11 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed getItemById with result: SUCCESS
+2024-05-25 16:00:11 [reactor-http-nio-6] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:11 [reactor-http-nio-6] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:00:11 [reactor-http-nio-6] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:11 [reactor-http-nio-6] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:00:12 [reactor-http-nio-7] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@1af2dcdb
+2024-05-25 16:00:12 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:12 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:12 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:12 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:12 [parallel-7] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@7ccea420
+2024-05-25 16:00:12 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:12 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:12 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:12 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:12 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing getAllItems operation
+2024-05-25 16:00:12 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed getAllItems with result: SUCCESS
+2024-05-25 16:00:12 [reactor-http-nio-7] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:12 [reactor-http-nio-7] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:12 [reactor-http-nio-7] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:12 [reactor-http-nio-7] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:28 [reactor-http-nio-8] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@77debe5c
+2024-05-25 16:00:28 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:28 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:28 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:28 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:28 [parallel-8] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@787136c
+2024-05-25 16:00:28 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:28 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:28 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:28 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:28 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing getItemById operation for item ID 18
+2024-05-25 16:00:28 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed getItemById with result: SUCCESS
+2024-05-25 16:00:28 [reactor-http-nio-8] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:28 [reactor-http-nio-8] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:00:28 [reactor-http-nio-8] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:28 [reactor-http-nio-8] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:00:33 [reactor-http-nio-9] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@6363bec9
+2024-05-25 16:00:33 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:33 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:33 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:33 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:33 [parallel-9] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@e58411a
+2024-05-25 16:00:33 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:33 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:33 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:33 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:33 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing updateItem operation for item ID 18
+2024-05-25 16:00:33 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed updateItem with result: SUCCESS
+2024-05-25 16:00:33 [reactor-http-nio-9] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:33 [reactor-http-nio-9] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:00:33 [reactor-http-nio-9] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:33 [reactor-http-nio-9] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:00:36 [reactor-http-nio-10] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@389adb05
+2024-05-25 16:00:36 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:36 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:36 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:36 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:36 [parallel-10] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@5d98531
+2024-05-25 16:00:36 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:36 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:36 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:36 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:36 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing getAllItems operation
+2024-05-25 16:00:36 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed getAllItems with result: SUCCESS
+2024-05-25 16:00:36 [reactor-http-nio-10] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:36 [reactor-http-nio-10] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:36 [reactor-http-nio-10] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:36 [reactor-http-nio-10] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:39 [reactor-http-nio-11] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@2f27048d
+2024-05-25 16:00:39 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:39 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:39 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:39 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:39 [parallel-11] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@102219ee
+2024-05-25 16:00:39 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:39 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:39 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:39 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:39 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing getItemById operation for item ID 18
+2024-05-25 16:00:39 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed getItemById with result: SUCCESS
+2024-05-25 16:00:39 [reactor-http-nio-11] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:39 [reactor-http-nio-11] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:00:39 [reactor-http-nio-11] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:39 [reactor-http-nio-11] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:00:40 [reactor-http-nio-12] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@30fe02b9
+2024-05-25 16:00:40 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:40 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:40 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:40 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:40 [parallel-12] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@29eab10c
+2024-05-25 16:00:40 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:40 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:40 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:40 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:40 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing getAllItems operation
+2024-05-25 16:00:40 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed getAllItems with result: SUCCESS
+2024-05-25 16:00:40 [reactor-http-nio-12] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:40 [reactor-http-nio-12] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:40 [reactor-http-nio-12] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:40 [reactor-http-nio-12] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:48 [reactor-http-nio-13] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@35568dc4
+2024-05-25 16:00:48 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:48 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:48 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:48 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:48 [parallel-13] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@128bdd7d
+2024-05-25 16:00:48 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:48 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:48 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:48 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:48 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing deleteItem operation for item ID 17
+2024-05-25 16:00:48 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed deleteItem with result: SUCCESS
+2024-05-25 16:00:48 [lettuce-nioEventLoop-7-1] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:48 [lettuce-nioEventLoop-7-1] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/17
+2024-05-25 16:00:48 [lettuce-nioEventLoop-7-1] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:48 [lettuce-nioEventLoop-7-1] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/17
+2024-05-25 16:00:49 [reactor-http-nio-14] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@20e42f13
+2024-05-25 16:00:49 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:49 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:49 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:49 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:49 [parallel-14] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@90b7058
+2024-05-25 16:00:49 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user5
+2024-05-25 16:00:49 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user5
+2024-05-25 16:00:49 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user5
+2024-05-25 16:00:49 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user5 authenticated with authorities [ROLE_ADMIN]
+2024-05-25 16:00:49 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user5 is performing getAllItems operation
+2024-05-25 16:00:49 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user5 performed getAllItems with result: SUCCESS
+2024-05-25 16:00:49 [reactor-http-nio-14] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:49 [reactor-http-nio-14] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:49 [reactor-http-nio-14] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user5
+2024-05-25 16:00:49 [reactor-http-nio-14] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:53 [lettuce-nioEventLoop-7-1] INFO  com.example.warehouse.util.JwtUtils - JWT key: averyverylongkey
+2024-05-25 16:00:53 [lettuce-nioEventLoop-7-1] INFO  com.example.warehouse.util.JwtUtils - JWT expire: 10
+2024-05-25 16:00:53 [lettuce-nioEventLoop-7-1] INFO  com.example.warehouse.util.JwtUtils - Created JWT: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlkIjoiMSIsImV4cCI6MTcxNjYyNDY1MywiaWF0IjoxNzE2NjI0MDUzLCJqdGkiOiJjYTEyZWM5Ni1mZWQ0LTRhMmYtOWJiNS0wNWM0MDA5YjU5NzAiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXX0.gKPdr-tMZ4gP-kXTI10CozybcseCN0U0144HzGwf5Os
+2024-05-25 16:00:53 [reactor-http-nio-16] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@54c779cd
+2024-05-25 16:00:53 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:00:53 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:00:53 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:00:53 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:00:53 [parallel-16] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@6bba2c51
+2024-05-25 16:00:53 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:00:53 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:00:53 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:00:53 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:00:53 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user1 is performing getAllItems operation
+2024-05-25 16:00:53 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user1 performed getAllItems with result: SUCCESS
+2024-05-25 16:00:53 [reactor-http-nio-16] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:00:53 [reactor-http-nio-16] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:53 [reactor-http-nio-16] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:00:53 [reactor-http-nio-16] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:55 [reactor-http-nio-1] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@43860372
+2024-05-25 16:00:55 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:00:55 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:00:55 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:00:55 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:00:55 [parallel-1] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@235c5db4
+2024-05-25 16:00:55 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:00:55 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:00:55 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:00:55 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:00:55 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user1 is performing getItemById operation for item ID 1
+2024-05-25 16:00:55 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user1 performed getItemById with result: SUCCESS
+2024-05-25 16:00:55 [reactor-http-nio-1] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:00:55 [reactor-http-nio-1] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/1
+2024-05-25 16:00:55 [reactor-http-nio-1] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:00:55 [reactor-http-nio-1] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/1
+2024-05-25 16:00:57 [reactor-http-nio-2] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@25cf5540
+2024-05-25 16:00:57 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:00:57 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:00:57 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:00:57 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:00:57 [parallel-2] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@7e51b453
+2024-05-25 16:00:57 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:00:57 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:00:57 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:00:57 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:00:57 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user1 is performing getAllItems operation
+2024-05-25 16:00:57 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user1 performed getAllItems with result: SUCCESS
+2024-05-25 16:00:57 [reactor-http-nio-2] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:00:57 [reactor-http-nio-2] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:57 [reactor-http-nio-2] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:00:57 [reactor-http-nio-2] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:00:59 [reactor-http-nio-3] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@12d5d124
+2024-05-25 16:00:59 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:00:59 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:00:59 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:00:59 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:00:59 [parallel-3] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@1dcf28b2
+2024-05-25 16:00:59 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:00:59 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:00:59 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:00:59 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:00:59 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user1 is performing getItemById operation for item ID 18
+2024-05-25 16:00:59 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user1 performed getItemById with result: SUCCESS
+2024-05-25 16:00:59 [reactor-http-nio-3] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:00:59 [reactor-http-nio-3] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:00:59 [reactor-http-nio-3] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:00:59 [reactor-http-nio-3] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items/18
+2024-05-25 16:01:28 [reactor-http-nio-4] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@24c58d5c
+2024-05-25 16:01:28 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:01:28 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:01:28 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:01:28 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:01:28 [parallel-4] INFO  com.example.warehouse.util.JwtUtils - Resolved JWT: com.auth0.jwt.JWTDecoder@3e349223
+2024-05-25 16:01:28 [lettuce-nioEventLoop-7-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-25 16:01:28 [lettuce-nioEventLoop-7-1] INFO  c.e.w.s.CustomReactiveUserDetailsService - Looking for user: user1
+2024-05-25 16:01:28 [reactor-tcp-nio-11] INFO  c.e.w.s.CustomReactiveUserDetailsService - User found: user1
+2024-05-25 16:01:28 [reactor-tcp-nio-11] INFO  c.e.w.filter.JwtAuthorizeFilter - User user1 authenticated with authorities [ROLE_USER]
+2024-05-25 16:01:28 [reactor-tcp-nio-11] INFO  c.e.warehouse.handler.ItemHandler - User user1 is performing getAllItems operation
+2024-05-25 16:01:28 [lettuce-nioEventLoop-7-1] INFO  c.e.warehouse.handler.ItemHandler - User user1 performed getAllItems with result: SUCCESS
+2024-05-25 16:01:28 [reactor-http-nio-4] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:01:28 [reactor-http-nio-4] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items
+2024-05-25 16:01:28 [reactor-http-nio-4] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-25 16:01:28 [reactor-http-nio-4] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to http://localhost:8080/items

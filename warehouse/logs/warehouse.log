@@ -1,0 +1,22 @@
+2024-05-24 17:23:31 [main] INFO  c.e.w.handler.ItemHandlerTest - Starting ItemHandlerTest using Java 21.0.2 with PID 15604 (started by 28760 in C:\Users\28760\Desktop\warehouse_management\warehouse)
+2024-05-24 17:23:31 [main] INFO  c.e.w.handler.ItemHandlerTest - No active profile set, falling back to 1 default profile: "default"
+2024-05-24 17:23:40 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0340aa88-c6f5-4ad3-8c5e-52f49bc83496
+
+2024-05-24 17:23:44 [main] INFO  c.e.w.handler.ItemHandlerTest - Started ItemHandlerTest in 14.323 seconds (process running for 18.844)
+2024-05-24 17:23:45 [parallel-1] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-24 17:23:45 [parallel-1] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-24 17:23:45 [parallel-1] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to /items/1
+2024-05-24 17:23:46 [parallel-2] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-24 17:23:46 [parallel-2] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-24 17:23:46 [parallel-2] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to /items
+2024-05-24 17:23:46 [parallel-3] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-24 17:23:46 [parallel-3] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-24 17:23:46 [parallel-3] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to /items/1
+2024-05-24 17:23:46 [parallel-4] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-24 17:23:46 [parallel-4] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-24 17:23:46 [parallel-4] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to /items
+2024-05-24 17:23:46 [parallel-5] INFO  c.e.w.filter.JwtAuthorizeFilter - Resolved username: user1
+2024-05-24 17:23:46 [parallel-5] ERROR c.e.w.filter.JwtAuthorizeFilter - User not found: user1
+2024-05-24 17:23:46 [parallel-5] WARN  c.e.w.filter.JwtAuthorizeFilter - Unauthorized access attempt to /items/1
